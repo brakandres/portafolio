@@ -411,6 +411,7 @@ main .profile{
     font-size: 14px;
     line-height: 1.6;
     padding: 0;
+    text-align: justify;
 }
 
 .resume-lines{
@@ -442,7 +443,11 @@ main .profile{
     flex: 1;
     text-align: left;
 }
-
+ul{
+    text-align: left;
+    margin: 10px
+;
+}
 .resume-line article{
     padding: 15px 15px;
 }
@@ -484,15 +489,16 @@ main .profile{
 
 .resume-line .name{
     margin: 0;
-    font-size: 8px;
-    color: #171717;
+    font-size: 15px;
+    height: 80px;
+    color: #DEE1EC;
     font-weight: 500;
     text-transform: uppercase;
 }
 
 .resume-line .company{
     margin: 0 0 10px 0;
-    font-size: 11px;
+    font-size: 13px;
     color: #999999;
     font-weight: 300;
     text-transform: uppercase;
