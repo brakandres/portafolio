@@ -497,7 +497,7 @@ ul{
 }
 
 .resume-line .company{
-    margin: 0 0 10px 0;
+    margin: 38 0 15px 0;
     font-size: 13px;
     color: #999999;
     font-weight: 300;
@@ -673,3 +673,13 @@ main .contact{
         margin-bottom: 0;
     }
 }
+@media only screen and (max-width: 400px) {
+.profile-name {
+    font-size: 19px;
+    width: 400px;
+}
+
+.profile-profession {
+    width: 400px;
+}
+    
